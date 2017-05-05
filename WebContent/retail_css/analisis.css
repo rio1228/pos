@@ -1,0 +1,165 @@
+@CHARSET "UTF-8";
+
+#pie-contents h2{
+	margin:20px auto;
+	font-family: 'Droid Sans', sans-serif;
+}
+#analysis-chart{
+	float:left;
+	margin-left:15px;
+	border: 2px solid red;
+	margin-top:50px;
+}
+#pie-contents{
+	background-color:#A4A4A4;
+	padding-top:20px;
+	padding-bottom:190px;//元々94px
+}
+#recommend{
+	background-color:white;
+	width:600px;
+	height:193px;
+	border: 2px solid black;
+	margin-bottom:10px;
+	margin-left:690px;
+	margin-top:65px;/*元々50px*/
+	overflow:hidden;
+	overflow: scroll;   /* スクロール表示 */
+}
+#recommend table{
+	font-size:0.8em;
+	font-family: 'Droid Sans', sans-serif;
+}
+#orderDiv{
+	width:600px;
+	height:193px;
+	border: 2px solid black;
+	margin-left:690px;
+	overflow: scroll;
+	background-color:white;
+}
+.delete{
+	width:50px;
+	font-size:1em;
+}
+#orderDiv p{
+	text-align:center;
+	margin-top:80px;
+}
+#orderDiv table{
+	font-size:0.8em;
+}
+#orderAction{
+	margin-top:26px;
+}
+#popularTable{
+	margin:0 auto;
+}
+.fee {
+	text-align:right;
+}
+#orderTable {
+	margin-left:5px;
+	margin-right:5px;
+}
+#orderSubmit {
+	margin-top:10px;
+}
+#analisis_nav{
+	position: relative;
+	top:50px;
+	font-size:1.5em;
+	width:350px;
+	height:50px;
+	margin-bottom:15px;
+	margin-left:130px;
+}
+#analisis_nav a{
+	text-decoration:none;
+}
+#analisis_nav span{
+	background:#FF8000; height:2px; display:block;
+}
+#home_pie{
+	background: url(../img/home2.png) no-repeat;
+	background-size:42px;
+	margin-left:30px;
+	margin-right:20px;
+	float:left;
+}
+#home_pie img{
+	width:42px;
+    border: none;
+}
+#home_pie a{
+    display: block;
+}
+#home_pie a:hover img{
+	visibility: hidden;
+}
+#sex_pie{
+	background: url(../img/sex2.png) no-repeat;
+	background-size:42px;
+	margin-right:20px;
+	float:left;
+}
+#sex_pie img{
+	width:42px;
+    border: none;
+}
+#sex_pie a{
+    display: block;
+}
+#sex_pie a:hover img{
+	visibility: hidden;
+}
+#temp_pie{
+	background: url(../img/temp2.png) no-repeat;
+	background-size:42px;
+	margin-right:20px;
+	float:left;
+}
+#temp_pie img{
+	width:42px;
+    border: none;
+}
+#temp_pie a{
+    display: block;
+}
+#temp_pie a:hover img{
+	visibility: hidden;
+}
+#weather_pie{
+	background: url(../img/sun2.png) no-repeat;
+	background-size:42px;
+	margin-right:20px;
+	float:left;
+}
+#weather_pie img{
+	width:42px;
+    border: none;
+}
+#weather_pie a{
+    display: block;
+}
+#weather_pie a:hover img{
+	visibility: hidden;
+}
+#human_pie{
+	background: url(../img/human2.png) no-repeat;
+	background-size:42px;
+	margin-right:20px;
+	float:left;
+}
+#human_pie img{
+	width:42px;
+    border: none;
+}
+#human_pie a{
+    display: block;
+}
+#human_pie a:hover img{
+	visibility: hidden;
+	transition:.3s;
+}
+

@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+#productregister{
+	background-color:grey;
+	clear:both;
+	text-align:center;
+	width:500px;
+	margin-left:30%;
+}

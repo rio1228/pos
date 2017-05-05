@@ -1,0 +1,342 @@
+@CHARSET "UTF-8";
+
+
+#main{
+  	margin:0 auto;
+  	padding-top:30px;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	padding:10px;
+	text-align:center;
+	padding-bottom:1px;
+}
+table{
+	border-spacing: 0px;
+}
+#part1{
+	float:left;
+}
+#part2{
+	overflow:hidden;
+	width:555px;
+	height:560px;
+	margin-left:770px;
+}
+#back{
+	float:left;
+	overflow:hidden;
+	margin-top:-46px;
+}
+
+#register-contents{
+	margin-top:20px;
+}
+#register{
+	width:724px;
+	margin-left:30px;
+	margin-bottom:15px;
+}
+#register p{
+	text-align:center;
+}
+#register td{
+	height:1em;
+}
+
+#reji_body{
+	border: 2px groove black;
+	overflow-y:scroll;
+	background-color:#F4FA58;
+	font-size:1.2em;
+	padding-bottom:200px;
+	height:40px;
+}
+.productName{
+	font-family: "Rounded Mplus 1c";
+	width:400px;
+	text-align:left;
+}
+.num{
+	text-align:right;
+	width:40px;
+	font-family: "Rounded Mplus 1c";
+
+}
+.subPrice{
+	text-align:right;
+	width:260px;
+}
+#product_quantity {
+	font-family: "Rounded Mplus 1c";
+	border: 2px groove black;
+	text-align:right;
+	height:20px;
+	background-color:grey;
+	color:white;
+}
+#product_quantity p{
+	text-align:right;
+	margin-top:-3px;
+}
+#productcode{
+	background-color:grey;
+	text-align:center;
+	font-size:1.5em;
+	color:white;
+}
+#barcode{
+	text-align:center;
+	padding-bottom:8px;
+	border-bottom: 1px groove black;
+	background-color:green;
+}
+#sub-contents{
+	margin-left:30px;
+	border: 2px groove black;
+}
+#product-group{
+	width:700px;
+	padding:10px 0px;
+	margin-left:20px;
+}
+#product-group button{
+	margin-left:20px;
+	margin-bottom:5px;
+}
+
+#reader{
+	border:0;
+	padding:10px;
+	font-size:1em;
+	font-family:Arial, sans-serif;
+	color:#aaa;
+	border:solid 1px #ccc;
+	width:300px;
+	-webkit-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-top:6px;
+}
+
+#quantity{
+	width:50px;
+	background-color:grey;
+	text-align:center;
+	font-size:1.5em;
+	color:white;
+}
+#casher{
+	float:left;
+	height:265px;
+}
+#subtotal{
+	background-color:grey;
+	text-align:center;
+	font-size:1.5em;
+	color:white;
+}
+#totalHead {
+	background-color:#52463B;
+	color:white;
+	height:20px;
+	text-align: center;
+}
+#sumHead{
+	background-color:#52463B;
+	color:white;
+	height:20px;
+	text-align: center;
+}
+#changeHead{
+	background-color:#52463B;
+	color:white;
+	height:20px;
+	text-align: center;
+}
+#change{
+	background-color:#F4FA58;
+}
+#taxHead{
+	background-color:#52463B;
+	color:white;
+	height:20px;
+	text-align: center;
+}
+#depoHead{
+	background-color:#52463B;
+	color:white;
+	text-align: center;
+}
+#depoHead #depo{
+	height:40px;
+}
+#deposit{
+	position:relative;
+	left:5px;
+	height:105px;
+	width:100px;
+	font-size:1.5em;
+	background-color: #333;
+	color : white;
+}
+#deposit:hover {
+	letter-spacing: 5px;
+}
+#discount{
+	position:relative;
+	height:50px;
+	width:100px;
+	font-size:1.5em;
+	background-color: #333;
+	color : white;
+	margin-left:5px;
+}
+#discount:hover {
+	letter-spacing: 5px;
+}
+#delete{
+	position:relative;
+	height:50px;
+	width:100px;
+	font-size:1.5em;
+	background-color: #333;
+	color : white;
+	margin-left:5px;
+}
+#delete:hover {
+	letter-spacing: 5px;
+}
+.other{
+	position:relative;
+	height:50px;
+	width:100px;
+	font-size:1.5em;
+	background-color: #333;
+	color : white;
+	padding:2px;
+	margin-left:5px;
+}
+.other:hover {
+	letter-spacing: 2px;
+}
+.other1:hover {
+	letter-spacing: 1px;
+}
+.other2:hover {
+	letter-spacing: 1px;
+}
+.other1{
+	position:relative;
+	top:-27px;
+	height:50px;
+	width:100px;
+	font-size:1.5em;
+	background-color: #333;
+	color : white;
+	margin-left:5px;
+}
+.other2{
+	position:relative;
+	top:-52px;
+	height:50px;
+	width:100px;
+	font-size:1.5em;
+	background-color: #333;
+	color : white;
+	margin-left:5px;
+	margin-bottom: -20px;
+}
+#attribute{
+	font-family: "Rounded Mplus 1c";
+	margin-left:220px;
+
+}
+#attribute #name{
+	position:relative;
+	text-align: center;
+	color:white;
+	background-color:#52463B;
+}
+#attrTable{
+	height:266px;
+}
+#user_span{
+	width: 212px;
+	text-align: center;
+}
+#name_span{
+	text-align: center;
+}
+#attribute #user_name{
+	background-color:#52463B;
+	margin-top:-40px;
+	text-align: center;
+	color:white;
+	width: 120px;
+}
+#sex{
+	background-color:#52463B;
+	color:white;
+	text-align: center;
+	height:63px;
+}
+#sex_span{
+	text-align: center;
+
+}
+#age_span{
+	text-align: center;
+	height:68px;
+}
+#age_select{
+	width:150px;
+}
+#attribute #age_layer{
+	background-color:#52463B;
+	color:white;
+	height: 50px;
+	text-align: center;
+}
+
+#user_name{
+	text-align: center;
+}
+#name{
+	text-align: center;
+}
+.button {
+	background-color: #333;
+	color:white;
+	display: inline-block;
+	width: 200px;
+	height: 54px;
+	text-align: center;
+	text-decoration: none;
+	line-height:0px;
+	outline: none;
+
+}
+.button:hover {
+	letter-spacing: 5px;
+}
+#part2-1{
+	margin-bottom:16px;
+	overflow:hidden;
+}
+#accounting{
+	border: 2px groove black;
+	height:257px;
+}
+
+.price{
+	width:100px;
+}
+.price p{
+	text-align:right;
+}

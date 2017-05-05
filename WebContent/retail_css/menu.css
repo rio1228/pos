@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+@font-face{
+	font-family: 'Amana-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/Amana-Regular.otf) format('woff');
+}
+#menu{
+	float:left;
+	overflow:hidden;
+	width:200px;
+	position: absolute;
+	z-index:20;
+
+}
+#menu .button p{
+	font-family: 'Amana-Regular',nomal;
+	font-size:2em;
+	line-height:0;
+}
+#menu .button2 p{
+
+	font-size:1em;
+}
+#menu .drawer-nav{
+	width:200px;
+	background-image:url("../img/01.jpg");
+}
+#menu .drawer-nav a{
+	text-decoration:none;
+	font-size:20px;
+}
+#menu .button2 {
+	width:180px;
+	display: inline-block;
+	padding: .75em 1em;
+	border: 2px solid #333;
+	border-radius: 3em .5em 2em .5em/.4em 2em .5em 3em;
+	color: #333;
+	text-decoration: none;
+	margin-left:10px;
+}
+#menu .button{
+	width:200px;
+	height:50px;
+	display: inline-block;
+	padding: .75em 4em;
+	border: 2px solid #333;
+	border-radius: 3em .5em 2em .5em/.4em 2em .5em 3em;
+	color: #333;
+	text-decoration: none;
+	text-align: center;
+}
+#menu li{
+	background-image:url("../img/01.jpg");
+}
+.drawer-hamburger-icon{
+	margin-top:1px;
+}

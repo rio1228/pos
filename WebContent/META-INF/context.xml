@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- アプリケーションフォルダ内にあるので、当該アプリケーションのみに適用されます。 -->
+<Context>
+    <Resource
+    		  name="jdbc/pos_db"
+              auth="Container"
+              maxTotal="100"
+              maxIdle="20"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/pos_db"
+              username="root"
+              password="" />
+    <Resource
+    		  name="jdbc/liquor"
+              auth="Container"
+              maxTotal="100"
+              maxIdle="20"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/liquor"
+              username="root"
+              password="" />
+</Context>

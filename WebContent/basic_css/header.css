@@ -1,0 +1,139 @@
+@CHARSET "UTF-8";
+#header{
+	height:45px;
+	background-color:#FACC2E;
+	position: absolute;
+	z-index:10;
+	width:100%;
+}
+.logo{
+	width:90px;
+	height:70px;
+	padding-top:1px;
+	margin-top:-25px;
+	margin-left:50px;
+    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Bitter', serif;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.logo a{
+
+	display: block;
+	height:70px;
+	margin-left:10px;
+	text-decoration:none;
+	font-size:2em;
+	color:#848484;
+	}
+.logo a:hover{
+	color: white;
+}
+
+#form{
+	margin-left:620px;
+	margin-top:-90px;
+	float:left;
+	overflow:hidden;
+}
+#button{
+	margin-top:-80px;
+	margin-left:870px;
+}
+#userid{
+	margin-top:46px;
+	margin-left:280px;
+}
+#pass {
+	margin-left:280px;
+	margin-top:3px;
+}
+#login{
+	float:left;
+	overflow:hidden;
+	margin-top:-38px;
+	margin-left:84%;
+}
+
+#insert{
+	margin-left:90%;
+	margin-top:-38px;
+	padding-right:20px;
+}
+#insert a{
+	text-decoration:none;
+	color:silver;
+}
+#insert a:hover{
+	color: #59b1eb;
+}
+#name{
+	margin-left:540px;
+	float:left;
+	margin-top:-50px;
+}
+#name p{
+	color:#0B610B;
+	font-size:1.5em;
+    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Bitter', serif;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#settei{
+	margin-top:-40px;
+	margin-left:1190px;
+	background: url(../img/settei2.png) no-repeat;
+	background-size:30px;
+}
+#settei img{
+	width:30px;
+	border: none;
+}
+#settei a{
+    display: block;
+}
+#settei a:hover img{
+	visibility: hidden;
+}
+#logout{
+	float:left;
+	overflow:hidden;
+	margin-top:-42px;
+	margin-left:1240px;
+	background: url(../img/logout2.png) no-repeat;
+	background-size:38px
+}
+#logout img{
+	width:38px;
+	border: none;
+}
+#logout a{
+    display: block;
+}
+#logout a:hover img{
+	visibility: hidden;
+}
+#register{
+	margin-top:-36px;
+	margin-left:1295px;
+	padding-right:20px;
+	background: url(../img/register2.png) no-repeat;
+	background-size:35px
+}
+#register img{
+	width:35px;
+    border: none;
+}
+#register a{
+    display: block;
+}
+#register a:hover img{
+	visibility: hidden;
+}
+
+.button5{
+	width:200px;
+	height:50px;
+}
+
+
+

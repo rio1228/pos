@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+#main{
+	width:824px;
+	margin:0 auto;
+	background-color:pink;
+	text-align:center;
+	font-size:1.2em;
+}
+#check{
+	color:red;
+}

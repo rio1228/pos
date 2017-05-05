@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+.remodal{
+  overflow:auto;//追加
+}
+.remodal img{
+	border: 2px solid black;
+	float:left;
+	margin-right:30px;
+}
+.remodal h2{
+	overflow:hidden;
+}
+.remodal-cancel{
+	position:relative;
+	margin-top:150px;
+	margin-left:-300px;
+}
+.remodal-confirm{
+	position:relative;
+	margin-top:150px;
+	margin-left:20px;
+}
+.toriatukai{
+}
